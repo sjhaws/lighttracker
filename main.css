@@ -1,16 +1,52 @@
 .dot{
   background-color: black;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  margin-top: 20%;
+  height: 60px;
+  width: 60px;
+  margin-top: 15%;
 }
 
 .center{
   display: inline-block;
 }
 
-.right1{
+.rightone{
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 100px;
+}
+.righttwo{
+  display: inline-block;
+  margin-left: 200px;
+}
+.rightthree{
+  display: inline-block;
+  margin-left: 400px;
+}
+.rightfour{
+  display: inline-block;
+  margin-left: 800px;
+}
+.rightfive{
+  display: inline-block;
+  margin-left: 1300px;
+}
+.leftone{
+  display: inline-block;
+  margin-right: 100px;
+}
+.lefttwo{
+  display: inline-block;
+  margin-right: 200px;
+}
+.leftthree{
+  display: inline-block;
+  margin-right: 400px;
+}
+.leftfour{
+  display: inline-block;
+  margin-right: 800px;
+}
+.leftfive{
+  display: inline-block;
+  margin-right: 1300px;
 }

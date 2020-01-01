@@ -8,23 +8,30 @@
   </header>
   <body>
     <div id="menu" style="height: 20%;">
-      <button id="start">Start</button>
-      <button id="stop">Stop</button>
+      <div>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+      </div>
       <div style="width: 10%;"></div>
-      <button id="faster">+</button>
-      <div id="tempo"></div>
-      <button id="slower">-</button>
+      <label>Tempo</label>
+      <div>
+        <button id="faster">+</button>
+        <div id="tempo">30</div>
+        <button id="slower">-</button>
+      </div>
       <div style="width: 10%;"></div>
-      <button id="right">Right</button>
-      <button id="left">Left</button>
+      <div>
+        <button id="right">Right</button>
+        <button id="left">Left</button>
+      </div>
       <label>Distance</label>
-      <select id="distance">
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-        <option value="four">4</option>
-        <option value="five">5</option>
-      </select>
+      <div>
+        <button id="one">1</button>
+        <button id="two">2</button>
+        <button id="three">3</button>
+        <button id="four">4</button>
+        <button id="five">5</button>
+      </div>
     </div>
     <div id="desktop" style="text-align: center;">
       <div id="dot" class="dot center"></div>
@@ -32,6 +39,6 @@
     <div id="footer">
       <div id="footer" style="position: absolute; bottom: 10px; background-color: snow; width: 100%; padding: 0 0 0 10%;">Copyright HAWSCO 2020</div>
     </div>
-    <script src="./index.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
