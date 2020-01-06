@@ -5,32 +5,36 @@
       Tracker
     </title>
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap_css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap_css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap_css/bootstrap.css">
   </header>
   <body>
-    <div id="menu" style="display: inline-block;">
-      <div style="width: 30%;">
-        <button id="start">Start</button>
-        <button id="stop">Stop</button>
-      </div>
-      <div style="width: 10%;"></div>
-      <label>Tempo</label>
-      <div>
-        <button id="faster">+</button>
-        <div id="tempo">30</div>
-        <button id="slower">-</button>
-      </div>
-      <div style="width: 10%;"></div>
-      <div>
-        <button id="right">Right</button>
-        <button id="left">Left</button>
-      </div>
-      <label>Distance</label>
-      <div>
-        <button id="one">1</button>
-        <button id="two">2</button>
-        <button id="three">3</button>
-        <button id="four">4</button>
-        <button id="five">5</button>
+    <div id="menu" class="container" style="display: inline-block;">
+      <div class="row">
+        <div style="width: 20%;">
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+        </div>
+        <label style="width: 10%;">Tempo</label>
+        <div class="row" style="width: 20%;">
+          <button id="faster">+</button>
+          <div id="tempo">30</div>
+          <button id="slower">-</button>
+        </div>
+        <label style="width: 10%;">Direction</label>
+        <div style="width: 10%;">
+          <button id="right">Right</button>
+          <button id="left">Left</button>
+        </div>
+        <label style="width: 10%;">Distance</label>
+        <div style="width: 20%;"> 
+          <button id="one">1</button>
+          <button id="two">2</button>
+          <button id="three">3</button>
+          <button id="four">4</button>
+          <button id="five">5</button>
+        </div style="width: 10%;">
       </div>
     </div>
     <div id="desktop" style="text-align: center;">
