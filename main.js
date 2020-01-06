@@ -4,6 +4,7 @@ var distance
 var timerVar
 var seconds
 var center
+var mySound = document.getElementById("click")
 
 tempo = 30
 
@@ -103,13 +104,13 @@ function right() {
  }
  function movement(){
    if (center === true) {
-    document.getElementById("dot").className = "dot " + direction + distance
+     document.getElementById("dot").className = "dot " + direction + distance
+     mySound.play()
     center = false
   } else {
     document.getElementById("dot").className = "dot center"
     center = true
    }
-
  }
  function stop() {
    clearInterval(timerVar)
